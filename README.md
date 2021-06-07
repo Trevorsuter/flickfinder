@@ -1,24 +1,25 @@
-# README
+<div align=center>
+  <h1>Flick Finder</h1>
+</div>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+***
 
-Things you may want to cover:
+## Table of Contents
+[Prerequisites](#prerequisites)  
+[Installation](#installation)  
+[Schema Design](#schema-design)  
+[Running the App](#running-the-app)  
+[Endpoints](#endpoints)  
+[Built With](#built-with)  
+***
+## Prerequisites
 
-* Ruby version
+## Installation
 
-* System dependencies
+## Schema Design
+![Schema Design](https://user-images.githubusercontent.com/72848529/121088570-2cca8a80-c7a3-11eb-8fa4-9670504b3821.png)
+## Running the App
 
-* Configuration
+## Endpoints
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Built With
