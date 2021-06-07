@@ -15,6 +15,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry'
   gem 'capybara'
+  gem 'shoulda-matchers'
   gem 'launchy'
   gem 'simplecov'
 end
