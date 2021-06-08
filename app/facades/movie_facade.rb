@@ -32,7 +32,7 @@ class MovieFacade
   def self.new_movie(movie)
     Movie.create(id: movie[:id],
                       title: movie[:title],
-                      release_date: Date.parse(movie[:release_date]),
+                      release_date: movie[:release_date],
                       description: movie[:overview],
                       popularity: movie[:popularity].to_d,
                       vote_average: movie[:vote_average].to_d

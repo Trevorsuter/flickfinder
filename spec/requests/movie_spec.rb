@@ -47,7 +47,7 @@ RSpec.describe 'movie request spec' do
     describe 'with sorting' do
       before :each do
         VCR.use_cassette('movie-request') do
-          params = {query: "Lord of the Rings", sort: "release date"}
+          params = {query: "Lord of the Rings", sort: "date"}
           get api_v1_movies_path, params: params
   
           @result = JSON.parse(response.body, symbolize_names: true)
